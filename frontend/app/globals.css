@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Gruvbox Dark Theme */
+    --background: 16 12% 16%; /* #282828 */
+    --foreground: 40 23% 88%; /* #ebdbb2 */
+
+    --card: 16 12% 20%; /* #3c3836 */
+    --card-foreground: 40 23% 88%; /* #ebdbb2 */
+
+    --popover: 16 12% 20%; /* #3c3836 */
+    --popover-foreground: 40 23% 88%; /* #ebdbb2 */
+
+    --primary: 45 100% 58%; /* #fabd2f - bright yellow */
+    --primary-foreground: 16 12% 16%; /* #282828 */
+
+    --secondary: 64 59% 56%; /* #b8bb26 - bright green */
+    --secondary-foreground: 16 12% 16%; /* #282828 */
+
+    --muted: 16 12% 28%; /* #504945 */
+    --muted-foreground: 40 13% 65%; /* #a89984 */
+
+    --accent: 4 89% 60%; /* #fb4934 - bright red */
+    --accent-foreground: 40 23% 88%; /* #ebdbb2 */
+
+    --destructive: 4 89% 60%; /* #fb4934 */
+    --destructive-foreground: 40 23% 88%; /* #ebdbb2 */
+
+    --border: 16 12% 28%; /* #504945 */
+    --input: 16 12% 28%; /* #504945 */
+    --ring: 45 100% 58%; /* #fabd2f */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
