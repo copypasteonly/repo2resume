@@ -37,9 +37,9 @@ Open http://localhost:3000
 ## Tech Stack
 
 **Backend:** FastAPI, httpx, OpenAI SDK, Pydantic
-**Frontend:** Next.js 15, TypeScript, Tailwind CSS, shadcn/ui
+**Frontend:** Next.js 16, TypeScript, Tailwind CSS, shadcn/ui
 **Infra:** Docker, Docker Compose
 
 ## License
 
-MIT
+GPL-3.0-or-later 
